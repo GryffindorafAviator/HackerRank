@@ -25,7 +25,7 @@
 # - The second line contains their grade.
 
 # Constraints
-# 2<= N <= 5
+# 2 <= N <= 5
 
 # There will always be one or more students having the second lowest grade.
 
