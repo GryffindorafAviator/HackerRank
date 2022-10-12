@@ -16,7 +16,7 @@
 # string: the modified string
   
 # Input Format
-# A single line containing a string .
+# A single line containing a string s.
 
 # Constraints
 # 0 < len(s) <= 1000
