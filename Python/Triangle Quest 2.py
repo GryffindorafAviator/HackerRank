@@ -9,7 +9,6 @@
 # 1234321
 # 123454321
 
-
 # You can't take more than two lines. 
 # The first line (a for-statement) is already written for you.
 # You have to complete the code using exactly one print statement.
