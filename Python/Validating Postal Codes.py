@@ -42,8 +42,8 @@
 # You have to pass all the testcases to get a positive score.
 
 # Solution
-regex_integer_in_range = r"^[1-9][\d]{5}$"	# Do not delete 'r'.
-regex_alternating_repetitive_digit_pair = r"(\d)(?=\d\1)"	# Do not delete 'r'.
+regex_integer_in_range = r"^[1-9][\d]{5}$"	
+regex_alternating_repetitive_digit_pair = r"(\d)(?=\d\1)"	
 
 import re
 P = input()
