@@ -9,8 +9,8 @@
 
 # def increment_by(n, increment=1):
 #     return n + increment
-# The functions works like this:
 
+# The functions works like this:
 # >>> increment_by(5, 2)
 # 7
 # >>> increment_by(4)
