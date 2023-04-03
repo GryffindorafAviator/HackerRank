@@ -1,5 +1,4 @@
 # zeros
-
 # The zeros tool returns a new array with a given shape and type filled with 0's.
 
 # import numpy
@@ -11,7 +10,6 @@
 # #Output : [[0 0]]
 
 # ones
-
 # The ones tool returns a new array with a given shape and type filled with 1's.
 
 # import numpy
