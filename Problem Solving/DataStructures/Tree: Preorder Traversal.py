@@ -40,6 +40,8 @@ self.left (the left child of the node)
 self.right (the right child of the node)
 self.info (the value of the node)
 """
+
+# Recursive
 def preOrder(root):
     if root == None:
         return
@@ -47,6 +49,22 @@ def preOrder(root):
     print(root.info, end=' ')
     preOrder(root.left)
     preOrder(root.right)
+
+# Iterative
+def preOrder(root):
+    stack = []
+    stack.append(root)
+    ans = []
+    
+    while stack != []:
+        cur = stack.pop(-1)
+        print(cur.info, end=' ')
+        
+        if cur.right != None:
+            stack.append(cur.right)
+        
+        if cur.left != None:
+            stack.append(cur.left)
 
 tree = BinarySearchTree()
 t = int(input())
