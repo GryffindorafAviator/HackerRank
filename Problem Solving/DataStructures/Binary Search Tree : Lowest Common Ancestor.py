@@ -45,7 +45,7 @@ class Node:
 
        // this is a node of the tree , which contains info as data, left , right
 '''
-
+# Solution 1
 def lca(root, v1, v2):
     node = root
     
@@ -56,6 +56,22 @@ def lca(root, v1, v2):
             node = node.right
         else:
             return node
+
+# Solution 2
+def lca(root, v1, v2):
+    if root == None:
+        return root
+    
+    if root.info == v1 or root.info == v2:
+        return root
+    
+    left = lca(root.left, v1, v2)
+    right = lca(root.right, v1, v2)
+    
+    if left != None and right != None:
+        return root
+    
+    return left if left != None else right
 
 tree = BinarySearchTree()
 t = int(input())
