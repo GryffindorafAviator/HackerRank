@@ -21,8 +21,7 @@ def twoArrays(k, A, B):
         if a + b < k:
             return "NO"
     
-    return "YES"
-            
+    return "YES"            
     
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
