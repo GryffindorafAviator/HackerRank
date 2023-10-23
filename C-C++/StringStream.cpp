@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<int> parseInts(string str) {
-	stringstream ss(str);
+    stringstream ss(str);
     char ch;
     int temp;
     vector<int> vec;
